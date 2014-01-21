@@ -4,8 +4,8 @@ package Task::Kensho::Async;
 BEGIN {
   $Task::Kensho::Async::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34-TRIAL-31-g96a67c7
-$Task::Kensho::Async::VERSION = '0.34001'; # TRIAL
+# git description: v0.34001-TRIAL-5-gfdada31
+$Task::Kensho::Async::VERSION = '0.34002'; # TRIAL
 # ABSTRACT: Async Programming
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::Async - Async Programming
 
 =head1 VERSION
 
-version 0.34001
+version 0.34002
 
 =head1 SYNOPSIS
 
