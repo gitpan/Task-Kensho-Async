@@ -4,7 +4,7 @@ Task::Kensho::Async - A Glimpse at an Enlightened Perl: Async Programming
 
 # VERSION
 
-version 0.34003
+version 0.34004
 
 # SYNOPSIS
 
