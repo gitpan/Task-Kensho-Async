@@ -1,5 +1,5 @@
 {
-   "abstract" : "Async Programming",
+   "abstract" : "A Glimpse at an Enlightened Perl: {{ $config_data->{$module}{description} }}",
    "author" : [
       "Chris Prather <chris@prather.org>"
    ],
@@ -95,7 +95,7 @@
          "web" : "https://github.com/EnlightenedPerlOrganisation/task-kensho"
       }
    },
-   "version" : "0.34002",
+   "version" : "0.34003",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.019007"
@@ -485,6 +485,11 @@
             "class" : "Dist::Zilla::Plugin::UploadToCPAN",
             "name" : "=inc::SubTaskPluginBundle/UploadToCPAN",
             "version" : "5.012"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::Git::Commit",
+            "name" : "=inc::SubTaskPluginBundle/Git::Commit",
+            "version" : "2.019"
          },
          {
             "class" : "Dist::Zilla::Plugin::ConfirmRelease",
