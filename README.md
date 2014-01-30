@@ -4,7 +4,7 @@ Task::Kensho::Async - A Glimpse at an Enlightened Perl: Async Programming
 
 # VERSION
 
-version 0.34004
+version 0.35
 
 # SYNOPSIS
 
@@ -49,6 +49,10 @@ facilitates the ease and simplicity the distribution aims to achieve.
 
 ## [Task::Kensho::Async](https://metacpan.org/pod/Task::Kensho::Async): Async Programming
 
+### [IO::Async](https://metacpan.org/pod/IO::Async)
+
+Asynchronous event-driven programming
+
 ### [POE](https://metacpan.org/pod/POE)
 
 Multitasking and networking framework for Perl
@@ -62,12 +66,6 @@ regarding which modules you wish to install.
 The `cpanm` client requires interactive mode to be enabled for this to work:
 
     cpanm --interactive Task-Kensho
-
-# RELEASE SCHEDULE
-
-Starting with release 0.18, [Task::Kensho](https://metacpan.org/pod/Task::Kensho) was moved to a monthly release
-cycle. This will facilitate a consistent schedule for upstream vendors
-to track the changes in [Task::Kensho](https://metacpan.org/pod/Task::Kensho).
 
 # BUGS AND LIMITATIONS
 
