@@ -1,11 +1,8 @@
 use strict;
 use warnings;
 package Task::Kensho::Async;
-BEGIN {
-  $Task::Kensho::Async::AUTHORITY = 'cpan:PERIGRIN';
-}
-# git description: v0.35-22-g29f8549
-$Task::Kensho::Async::VERSION = '0.36';
+# git description: v0.36-19-g32721c1
+$Task::Kensho::Async::VERSION = '0.37';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Async Programming
 
 __END__
@@ -20,7 +17,7 @@ Task::Kensho::Async - A Glimpse at an Enlightened Perl: Async Programming
 
 =head1 VERSION
 
-version 0.36
+version 0.37
 
 =head1 SYNOPSIS
 
@@ -69,9 +66,9 @@ facilitates the ease and simplicity the distribution aims to achieve.
 
 =head1 RECOMMENDED MODULES
 
-=head2 L<Task::Kensho::Async>: Async Programming
-
 =for stopwords Async
+
+=head2 L<Task::Kensho::Async>: Async Programming
 
 =head3 L<IO::Async>
 
@@ -117,5 +114,25 @@ This software is copyright (c) 2008 by Chris Prather.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
+
+=head1 CONTRIBUTORS
+
+=for stopwords Karen Etheridge Leo Lapworth Chris Nehren
+
+=over 4
+
+=item *
+
+Karen Etheridge <ether@cpan.org>
+
+=item *
+
+Leo Lapworth <leo@cuckoo.org>
+
+=item *
+
+Chris Nehren <apeiron@cpan.org>
+
+=back
 
 =cut
