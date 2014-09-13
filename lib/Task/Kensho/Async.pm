@@ -1,8 +1,8 @@
 use strict;
 use warnings;
 package Task::Kensho::Async;
-# git description: v0.36-19-g32721c1
-$Task::Kensho::Async::VERSION = '0.37';
+# git description: v0.37-21-g3274759
+$Task::Kensho::Async::VERSION = '0.38';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Async Programming
 
 __END__
@@ -17,7 +17,7 @@ Task::Kensho::Async - A Glimpse at an Enlightened Perl: Async Programming
 
 =head1 VERSION
 
-version 0.37
+version 0.38
 
 =head1 SYNOPSIS
 
